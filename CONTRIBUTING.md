@@ -176,3 +176,9 @@ a look.
 
 When you open the PR, a bot comments with every entry your change would add to
 Spoolman. Read it against the manufacturer's catalog before asking for review.
+It also warns when something you're adding looks like a product the database
+already has - the same name written differently, or one word apart from an
+existing one. That check compares the product line and the colour separately
+within one manufacturer, material and weight. It's a heuristic: it never fails
+the build, and manufacturers do sell products a single word apart. Check each
+one, and if it's a real product say so in the PR.
