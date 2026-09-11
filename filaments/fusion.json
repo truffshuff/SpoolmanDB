@@ -3,8 +3,8 @@
     "filaments": 
 	[
         {
-            "name": "ABS Matte {color_name}",
-            "material": "ABS",
+            "name": "{color_name}",
+            "material": "ABS Matte",
             "density": 1.05,
             "weights": [
                 {
@@ -132,8 +132,8 @@
 			]
 		},
 		{
-            "name": "ABS Gloss {color_name}",
-            "material": "ABS",
+            "name": "{color_name}",
+            "material": "ABS Gloss",
             "density": 1.05,
             "weights": [
                 {
@@ -249,8 +249,8 @@
 			]
 		},
 		{
-            "name": "HTPLA+ {color_name}",
-            "material": "PLA",
+            "name": "{color_name}",
+            "material": "HTPLA+",
             "density": 1.22,
             "weights": [
                 {
@@ -385,7 +385,7 @@
             ]
         },
 		{
-            "name": "ASA {color_name} (Engineering)",
+            "name": "{color_name}",
             "material": "ASA",
             "density": 1.08,
             "weights": [
@@ -482,8 +482,8 @@
 			]
 		},
 		{
-            "name": "EasyASA {color_name}",
-            "material": "ASA",
+            "name": "{color_name}",
+            "material": "EasyASA",
             "density": 1.08,
             "weights": [
                 {
@@ -579,8 +579,8 @@
 			]
 		},
 		{
-            "name": "HTPET+ {color_name}",
-            "material": "PET",
+            "name": "{color_name}",
+            "material": "HTPET+",
             "density": 1.35,
             "weights": [
                 {
@@ -699,7 +699,7 @@
 			]
 		},
 		{
-            "name": "PLA {color_name}",
+            "name": "{color_name}",
             "material": "PLA",
             "density": 1.24,
             "weights": [
