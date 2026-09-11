@@ -4,7 +4,7 @@
 	[
         {
             "name": "{color_name}",
-            "material": "ABS Matte",
+            "material": "ABS+MATTE",
             "density": 1.05,
             "weights": [
                 {
@@ -133,7 +133,7 @@
 		},
 		{
             "name": "{color_name}",
-            "material": "ABS Gloss",
+            "material": "ABS+GLOSS",
             "density": 1.05,
             "weights": [
                 {
@@ -483,7 +483,7 @@
 		},
 		{
             "name": "{color_name}",
-            "material": "EasyASA",
+            "material": "EASYASA",
             "density": 1.08,
             "weights": [
                 {
