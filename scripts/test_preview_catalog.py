@@ -31,7 +31,9 @@ EXISTING = {
 CHANGED = {
     "manufacturer": "Acme",
     "filaments": [
-        # Same product, punctuated the way a second contributor would write it.
+        # The original, left exactly as it was.
+        filament("Shiny {color_name}", [("Black", "1a1a1a")]),
+        # The same product again, punctuated the way someone else would write it.
         filament("Shiny - {color_name}", [("Black", "1a1a1a")]),
         # A colour typo on the same product line.
         filament("Shiny {color_name}", [("Blck", "1a1a1a")]),
@@ -102,6 +104,29 @@ def run(tmp: Path) -> str:
     return out.read_text()
 
 
+def test_rename_is_not_a_duplicate():
+    """A PR fixing a name must not be told it duplicates the name it fixes."""
+    base = {"manufacturer": "Acme",
+            "filaments": [filament("{color_name}", [("Jet Black ", "1a1a1a")])]}
+    # The trailing space is gone, which is a correction, not a new product.
+    head = {"manufacturer": "Acme",
+            "filaments": [filament("{color_name}", [("Jet Black", "1a1a1a")])]}
+
+    with tempfile.TemporaryDirectory() as d:
+        tmp = Path(d)
+        (tmp / "base").mkdir()
+        (tmp / "base" / "acme.json").write_text(json.dumps(base))
+        (tmp / "filaments").mkdir()
+        (tmp / "filaments" / "acme.json").write_text(json.dumps(head))
+        out = tmp / "preview.md"
+        sys.argv = ["x", str(tmp / "filaments" / "acme.json"),
+                    "--base-dir", str(tmp / "base"), "--out", str(out)]
+        assert main() == 0
+        text = out.read_text()
+
+    assert "possible duplicate" not in text, text
+
+
 def test_end_to_end():
     with tempfile.TemporaryDirectory() as d:
         text = run(Path(d))
@@ -129,6 +154,7 @@ def test():
     test_dup_key()
     test_looks_misspelled()
     test_compare_field()
+    test_rename_is_not_a_duplicate()
     test_end_to_end()
     print("ok")
 

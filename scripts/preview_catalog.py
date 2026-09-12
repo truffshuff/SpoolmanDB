@@ -162,15 +162,30 @@ def verbatim(rec: dict) -> tuple:
     return (rec["manufacturer"], rec["material"], rec["weight"], rec["line"], rec["color"])
 
 
-def base_index(base_dir: str | None) -> tuple[set, set, dict, dict]:
-    """Reads the whole catalog as it stands on the base branch."""
+def removed_by(files: list[tuple[Path, dict]], base_dir: str | None) -> set:
+    """The filaments a PR takes out of the files it touches.
+
+    A PR that corrects a name removes the old spelling and adds the new one.
+    Matching the new spelling against the old one it just deleted would report
+    every such fix as a duplicate of the thing it repairs.
+    """
+    gone = set()
+    for path, head in files:
+        base = load(Path(base_dir) / path.name) if base_dir else None
+        kept = {verbatim(rec) for rec in records(head)}
+        gone |= {verbatim(rec) for rec in records(base) if verbatim(rec) not in kept}
+    return gone
+
+
+def base_index(base_dir: str | None, removed: set) -> tuple[set, set, dict, dict]:
+    """Reads the catalog as it stands on the base branch, minus what the PR drops."""
     ids, unchanged, by_name, buckets = set(), set(), {}, defaultdict(list)
     for path in sorted(Path(base_dir).glob("*.json")) if base_dir else []:
         data = load(path)
         ids.update(e["id"] for e in entries(data))
         for rec in records(data):
-            if verbatim(rec) in unchanged:
-                continue  # the same product listed again for another diameter
+            if verbatim(rec) in unchanged or verbatim(rec) in removed:
+                continue  # already seen for another diameter, or this PR removes it
             unchanged.add(verbatim(rec))
             by_name.setdefault(dup_key(rec), rec)
             buckets[bucket_key(rec)].append(rec)
@@ -302,20 +317,23 @@ def main() -> int:
     parser.add_argument("--out", default="preview.md")
     args = parser.parse_args()
 
-    base_ids, unchanged, by_name, buckets = base_index(args.base_dir)
-
-    new_entries = []
-    findings = {}
-    seen = set()
+    changed = []
     for name in args.files:
         path = Path(name)
         if path.parent.name != "filaments" or path.suffix != ".json":
             continue
-
         head = load(path)
-        if head is None:
-            continue
+        if head is not None:
+            changed.append((path, head))
 
+    base_ids, unchanged, by_name, buckets = base_index(
+        args.base_dir, removed_by(changed, args.base_dir)
+    )
+
+    new_entries = []
+    findings = {}
+    seen = set()
+    for path, head in changed:
         for data_filament in head.get("filaments", []):
             single = {"manufacturer": head["manufacturer"], "filaments": [data_filament]}
             new_entries += [e for e in entries(single) if e["id"] not in base_ids]
