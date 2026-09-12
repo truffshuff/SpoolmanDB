@@ -26,7 +26,16 @@ work out how much filament people have left. Read the values off a real source
 yourself.
 
 If you can't find a value, leave the field out. An empty optional field is fine,
-a guessed one is a bug.
+a guessed one is a bug. The exception is `spool_weight`: without it Spoolman
+can't work out how much filament is left from a weighing, so the lint rejects a
+filament that has none.
+
+**`spool_weight` only means anything if you measured it.** Put an empty spool on
+a kitchen scale and write down what it says. A number that's rounded off, copied
+from a similar spool or assumed from the spool size is worse than no entry at
+all: it silently skews every remaining-filament estimate made from it, and once
+merged nobody can tell it apart from a real measurement. If you can't weigh one,
+leave that filament for someone who can.
 
 ## Naming
 
@@ -97,8 +106,9 @@ filament objects, not one object with two weights.
 Same for spool types. A filament sold on both cardboard and plastic gets a second
 entry under `weights`, but only if every color is available on both.
 
-`weight` is the filament's net weight and `spool_weight` is the empty spool.
-Don't use the shipping weight from a store listing for either.
+`weight` is the filament's net weight and `spool_weight` is the empty spool,
+measured. Both are required. Don't use the shipping weight from a store listing
+for either.
 
 ## Temperatures
 
