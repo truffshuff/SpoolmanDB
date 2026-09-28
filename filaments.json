@@ -172503,6 +172503,2721 @@
     "glow": false
   },
   {
+    "id": "schoolhousespools_pctg_black_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Black",
+    "material": "PCTG",
+    "density": 1.21,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "1A1A1A",
+    "color_hexes": null,
+    "extruder_temp": 285,
+    "extruder_temp_range": null,
+    "bed_temp": 100,
+    "bed_temp_range": null,
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pctg_purple_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Purple",
+    "material": "PCTG",
+    "density": 1.21,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "630A54",
+    "color_hexes": null,
+    "extruder_temp": 285,
+    "extruder_temp_range": null,
+    "bed_temp": 100,
+    "bed_temp_range": null,
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pctg_red_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Red",
+    "material": "PCTG",
+    "density": 1.21,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "E32430",
+    "color_hexes": null,
+    "extruder_temp": 285,
+    "extruder_temp_range": null,
+    "bed_temp": 100,
+    "bed_temp_range": null,
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pctg_white_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "White",
+    "material": "PCTG",
+    "density": 1.21,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "E7E7E9",
+    "color_hexes": null,
+    "extruder_temp": 285,
+    "extruder_temp_range": null,
+    "bed_temp": 100,
+    "bed_temp_range": null,
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_petg_babyblue_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Baby Blue",
+    "material": "PETG",
+    "density": 1.27,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "7BA0D0",
+    "color_hexes": null,
+    "extruder_temp": 250,
+    "extruder_temp_range": [
+      245,
+      255
+    ],
+    "bed_temp": 75,
+    "bed_temp_range": [
+      70,
+      85
+    ],
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_petg_babypink_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Baby Pink",
+    "material": "PETG",
+    "density": 1.27,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "B47185",
+    "color_hexes": null,
+    "extruder_temp": 250,
+    "extruder_temp_range": [
+      245,
+      255
+    ],
+    "bed_temp": 75,
+    "bed_temp_range": [
+      70,
+      85
+    ],
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_petg_black_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Black",
+    "material": "PETG",
+    "density": 1.27,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "1A1A1A",
+    "color_hexes": null,
+    "extruder_temp": 250,
+    "extruder_temp_range": [
+      245,
+      255
+    ],
+    "bed_temp": 75,
+    "bed_temp_range": [
+      70,
+      85
+    ],
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_petg_blue_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Blue",
+    "material": "PETG",
+    "density": 1.27,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "2239B9",
+    "color_hexes": null,
+    "extruder_temp": 250,
+    "extruder_temp_range": [
+      245,
+      255
+    ],
+    "bed_temp": 75,
+    "bed_temp_range": [
+      70,
+      85
+    ],
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_petg_gradientblackgunmetalnavy_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Gradient Black Gunmetal Navy",
+    "material": "PETG",
+    "density": 1.27,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": null,
+    "color_hexes": [
+      "1A1A1A",
+      "4A5058",
+      "1F2A55"
+    ],
+    "extruder_temp": 245,
+    "extruder_temp_range": [
+      240,
+      255
+    ],
+    "bed_temp": 75,
+    "bed_temp_range": [
+      70,
+      85
+    ],
+    "finish": null,
+    "multi_color_direction": "longitudinal",
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_petg_gradientblackoliveburnorange_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Gradient Black Olive Burn Orange",
+    "material": "PETG",
+    "density": 1.27,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": null,
+    "color_hexes": [
+      "1A1A1A",
+      "6B6B2E",
+      "C4581C"
+    ],
+    "extruder_temp": 245,
+    "extruder_temp_range": [
+      240,
+      255
+    ],
+    "bed_temp": 75,
+    "bed_temp_range": [
+      70,
+      85
+    ],
+    "finish": null,
+    "multi_color_direction": "longitudinal",
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_petg_gradientblackrednavy_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Gradient Black Red Navy",
+    "material": "PETG",
+    "density": 1.27,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": null,
+    "color_hexes": [
+      "1A1A1A",
+      "B3202A",
+      "1F2A55"
+    ],
+    "extruder_temp": 245,
+    "extruder_temp_range": [
+      240,
+      255
+    ],
+    "bed_temp": 75,
+    "bed_temp_range": [
+      70,
+      85
+    ],
+    "finish": null,
+    "multi_color_direction": "longitudinal",
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_petg_gradientbluewhite_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Gradient Blue White",
+    "material": "PETG",
+    "density": 1.27,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": null,
+    "color_hexes": [
+      "7FA6DA",
+      "F0F0F0"
+    ],
+    "extruder_temp": 245,
+    "extruder_temp_range": [
+      240,
+      255
+    ],
+    "bed_temp": 75,
+    "bed_temp_range": [
+      70,
+      85
+    ],
+    "finish": null,
+    "multi_color_direction": "longitudinal",
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_petg_gradientcrystalrainbow_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Gradient Crystal Rainbow",
+    "material": "PETG",
+    "density": 1.27,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": null,
+    "color_hexes": [
+      "E04A6A",
+      "F0A030",
+      "E8E040",
+      "40B060",
+      "4070D0",
+      "8050C0"
+    ],
+    "extruder_temp": 245,
+    "extruder_temp_range": [
+      240,
+      255
+    ],
+    "bed_temp": 75,
+    "bed_temp_range": [
+      70,
+      85
+    ],
+    "finish": null,
+    "multi_color_direction": "longitudinal",
+    "pattern": null,
+    "translucent": true,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_petg_gradientorangeyellow_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Gradient Orange Yellow",
+    "material": "PETG",
+    "density": 1.27,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": null,
+    "color_hexes": [
+      "CE742F",
+      "E5B63A"
+    ],
+    "extruder_temp": 245,
+    "extruder_temp_range": [
+      240,
+      255
+    ],
+    "bed_temp": 75,
+    "bed_temp_range": [
+      70,
+      85
+    ],
+    "finish": null,
+    "multi_color_direction": "longitudinal",
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_petg_gradientpinkwhite_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Gradient Pink White",
+    "material": "PETG",
+    "density": 1.27,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": null,
+    "color_hexes": [
+      "E87F92",
+      "F2F2F2"
+    ],
+    "extruder_temp": 245,
+    "extruder_temp_range": [
+      240,
+      255
+    ],
+    "bed_temp": 75,
+    "bed_temp_range": [
+      70,
+      85
+    ],
+    "finish": null,
+    "multi_color_direction": "longitudinal",
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_petg_gradientpurplewhite_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Gradient Purple White",
+    "material": "PETG",
+    "density": 1.27,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": null,
+    "color_hexes": [
+      "9569D8",
+      "F0F0F0"
+    ],
+    "extruder_temp": 245,
+    "extruder_temp_range": [
+      240,
+      255
+    ],
+    "bed_temp": 75,
+    "bed_temp_range": [
+      70,
+      85
+    ],
+    "finish": null,
+    "multi_color_direction": "longitudinal",
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_petg_gradientpurplewhiteblue_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Gradient Purple White Blue",
+    "material": "PETG",
+    "density": 1.27,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": null,
+    "color_hexes": [
+      "7B3FA1",
+      "F0F0F0",
+      "3A5FC0"
+    ],
+    "extruder_temp": 245,
+    "extruder_temp_range": [
+      240,
+      255
+    ],
+    "bed_temp": 75,
+    "bed_temp_range": [
+      70,
+      85
+    ],
+    "finish": null,
+    "multi_color_direction": "longitudinal",
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_petg_gradientrainbow_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Gradient Rainbow",
+    "material": "PETG",
+    "density": 1.27,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": null,
+    "color_hexes": [
+      "E03A3A",
+      "F08A20",
+      "F0D820",
+      "40B040",
+      "3060D0",
+      "7A3FA1"
+    ],
+    "extruder_temp": 245,
+    "extruder_temp_range": [
+      240,
+      255
+    ],
+    "bed_temp": 75,
+    "bed_temp_range": [
+      70,
+      85
+    ],
+    "finish": null,
+    "multi_color_direction": "longitudinal",
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_petg_gradientyellowgreenwhite_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Gradient Yellow Green White",
+    "material": "PETG",
+    "density": 1.27,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": null,
+    "color_hexes": [
+      "E3E03A",
+      "8CC63F",
+      "F2F2F2"
+    ],
+    "extruder_temp": 245,
+    "extruder_temp_range": [
+      240,
+      255
+    ],
+    "bed_temp": 75,
+    "bed_temp_range": [
+      70,
+      85
+    ],
+    "finish": null,
+    "multi_color_direction": "longitudinal",
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_petg_green_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Green",
+    "material": "PETG",
+    "density": 1.27,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "439C1F",
+    "color_hexes": null,
+    "extruder_temp": 250,
+    "extruder_temp_range": [
+      245,
+      255
+    ],
+    "bed_temp": 75,
+    "bed_temp_range": [
+      70,
+      85
+    ],
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_petg_grey_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Grey",
+    "material": "PETG",
+    "density": 1.27,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "595D5F",
+    "color_hexes": null,
+    "extruder_temp": 250,
+    "extruder_temp_range": [
+      245,
+      255
+    ],
+    "bed_temp": 75,
+    "bed_temp_range": [
+      70,
+      85
+    ],
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_petg_matteblack_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Matte Black",
+    "material": "PETG",
+    "density": 1.27,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "1C1C1C",
+    "color_hexes": null,
+    "extruder_temp": 245,
+    "extruder_temp_range": [
+      240,
+      255
+    ],
+    "bed_temp": 75,
+    "bed_temp_range": [
+      70,
+      85
+    ],
+    "finish": "matte",
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_petg_matteblue_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Matte Blue",
+    "material": "PETG",
+    "density": 1.27,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "3B56C9",
+    "color_hexes": null,
+    "extruder_temp": 245,
+    "extruder_temp_range": [
+      240,
+      255
+    ],
+    "bed_temp": 75,
+    "bed_temp_range": [
+      70,
+      85
+    ],
+    "finish": "matte",
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_petg_mattegreen_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Matte Green",
+    "material": "PETG",
+    "density": 1.27,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "5DB62A",
+    "color_hexes": null,
+    "extruder_temp": 245,
+    "extruder_temp_range": [
+      240,
+      255
+    ],
+    "bed_temp": 75,
+    "bed_temp_range": [
+      70,
+      85
+    ],
+    "finish": "matte",
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_petg_mattegrey_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Matte Grey",
+    "material": "PETG",
+    "density": 1.27,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "B9BBBC",
+    "color_hexes": null,
+    "extruder_temp": 245,
+    "extruder_temp_range": [
+      240,
+      255
+    ],
+    "bed_temp": 75,
+    "bed_temp_range": [
+      70,
+      85
+    ],
+    "finish": "matte",
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_petg_orange_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Orange",
+    "material": "PETG",
+    "density": 1.27,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "D2491C",
+    "color_hexes": null,
+    "extruder_temp": 250,
+    "extruder_temp_range": [
+      245,
+      255
+    ],
+    "bed_temp": 75,
+    "bed_temp_range": [
+      70,
+      85
+    ],
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_petg_pastelgreen_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Pastel Green",
+    "material": "PETG",
+    "density": 1.27,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "6AB091",
+    "color_hexes": null,
+    "extruder_temp": 250,
+    "extruder_temp_range": [
+      245,
+      255
+    ],
+    "bed_temp": 75,
+    "bed_temp_range": [
+      70,
+      85
+    ],
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_petg_pearlgold_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Pearl Gold",
+    "material": "PETG",
+    "density": 1.27,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "B48A34",
+    "color_hexes": null,
+    "extruder_temp": 250,
+    "extruder_temp_range": [
+      245,
+      255
+    ],
+    "bed_temp": 75,
+    "bed_temp_range": [
+      70,
+      85
+    ],
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_petg_purple_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Purple",
+    "material": "PETG",
+    "density": 1.27,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "683371",
+    "color_hexes": null,
+    "extruder_temp": 250,
+    "extruder_temp_range": [
+      245,
+      255
+    ],
+    "bed_temp": 75,
+    "bed_temp_range": [
+      70,
+      85
+    ],
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_petg_red_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Red",
+    "material": "PETG",
+    "density": 1.27,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "C22935",
+    "color_hexes": null,
+    "extruder_temp": 250,
+    "extruder_temp_range": [
+      245,
+      255
+    ],
+    "bed_temp": 75,
+    "bed_temp_range": [
+      70,
+      85
+    ],
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_petg_transparent_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Transparent",
+    "material": "PETG",
+    "density": 1.27,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "E6E6E680",
+    "color_hexes": null,
+    "extruder_temp": 250,
+    "extruder_temp_range": [
+      245,
+      255
+    ],
+    "bed_temp": 75,
+    "bed_temp_range": [
+      70,
+      85
+    ],
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": true,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_petg_transparentatrovirens_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Transparent Atrovirens",
+    "material": "PETG",
+    "density": 1.27,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "2C535A",
+    "color_hexes": null,
+    "extruder_temp": 245,
+    "extruder_temp_range": [
+      240,
+      255
+    ],
+    "bed_temp": 75,
+    "bed_temp_range": [
+      70,
+      85
+    ],
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": true,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_petg_transparentblue_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Transparent Blue",
+    "material": "PETG",
+    "density": 1.27,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "023D98",
+    "color_hexes": null,
+    "extruder_temp": 245,
+    "extruder_temp_range": [
+      240,
+      255
+    ],
+    "bed_temp": 75,
+    "bed_temp_range": [
+      70,
+      85
+    ],
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": true,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_petg_transparentclear_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Transparent Clear",
+    "material": "PETG",
+    "density": 1.27,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "F2F2F280",
+    "color_hexes": null,
+    "extruder_temp": 245,
+    "extruder_temp_range": [
+      240,
+      255
+    ],
+    "bed_temp": 75,
+    "bed_temp_range": [
+      70,
+      85
+    ],
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": true,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_petg_transparentgreen_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Transparent Green",
+    "material": "PETG",
+    "density": 1.27,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "22D406",
+    "color_hexes": null,
+    "extruder_temp": 245,
+    "extruder_temp_range": [
+      240,
+      255
+    ],
+    "bed_temp": 75,
+    "bed_temp_range": [
+      70,
+      85
+    ],
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": true,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_petg_transparentorange_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Transparent Orange",
+    "material": "PETG",
+    "density": 1.27,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "ED8007",
+    "color_hexes": null,
+    "extruder_temp": 245,
+    "extruder_temp_range": [
+      240,
+      255
+    ],
+    "bed_temp": 75,
+    "bed_temp_range": [
+      70,
+      85
+    ],
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": true,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_petg_transparentpurple_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Transparent Purple",
+    "material": "PETG",
+    "density": 1.27,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "880D66",
+    "color_hexes": null,
+    "extruder_temp": 245,
+    "extruder_temp_range": [
+      240,
+      255
+    ],
+    "bed_temp": 75,
+    "bed_temp_range": [
+      70,
+      85
+    ],
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": true,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_petg_transparentred_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Transparent Red",
+    "material": "PETG",
+    "density": 1.27,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "C61A28",
+    "color_hexes": null,
+    "extruder_temp": 245,
+    "extruder_temp_range": [
+      240,
+      255
+    ],
+    "bed_temp": 75,
+    "bed_temp_range": [
+      70,
+      85
+    ],
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": true,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_petg_transparentyellow_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Transparent Yellow",
+    "material": "PETG",
+    "density": 1.27,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "DDD904",
+    "color_hexes": null,
+    "extruder_temp": 245,
+    "extruder_temp_range": [
+      240,
+      255
+    ],
+    "bed_temp": 75,
+    "bed_temp_range": [
+      70,
+      85
+    ],
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": true,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_petg_white_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "White",
+    "material": "PETG",
+    "density": 1.27,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "E8E8E6",
+    "color_hexes": null,
+    "extruder_temp": 250,
+    "extruder_temp_range": [
+      245,
+      255
+    ],
+    "bed_temp": 75,
+    "bed_temp_range": [
+      70,
+      85
+    ],
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_petg_yellow_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Yellow",
+    "material": "PETG",
+    "density": 1.27,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "C9B111",
+    "color_hexes": null,
+    "extruder_temp": 250,
+    "extruder_temp_range": [
+      245,
+      255
+    ],
+    "bed_temp": 75,
+    "bed_temp_range": [
+      70,
+      85
+    ],
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla_babypink_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Baby Pink",
+    "material": "PLA",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "F3A5A9",
+    "color_hexes": null,
+    "extruder_temp": 210,
+    "extruder_temp_range": [
+      200,
+      220
+    ],
+    "bed_temp": 55,
+    "bed_temp_range": [
+      50,
+      60
+    ],
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla_brown_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Brown",
+    "material": "PLA",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "BB7D45",
+    "color_hexes": null,
+    "extruder_temp": 210,
+    "extruder_temp_range": [
+      200,
+      220
+    ],
+    "bed_temp": 55,
+    "bed_temp_range": [
+      50,
+      60
+    ],
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla_coffeecolor_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Coffee Color",
+    "material": "PLA",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "745D4E",
+    "color_hexes": null,
+    "extruder_temp": 210,
+    "extruder_temp_range": [
+      200,
+      220
+    ],
+    "bed_temp": 55,
+    "bed_temp_range": [
+      50,
+      60
+    ],
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla_goldensilk_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Golden Silk",
+    "material": "PLA",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "D7AB4F",
+    "color_hexes": null,
+    "extruder_temp": 220,
+    "extruder_temp_range": [
+      210,
+      230
+    ],
+    "bed_temp": 55,
+    "bed_temp_range": [
+      50,
+      60
+    ],
+    "finish": "glossy",
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla_gradientdreamcrystal_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Gradient Dream Crystal",
+    "material": "PLA",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": null,
+    "color_hexes": [
+      "8A6AD8",
+      "5E7CD4"
+    ],
+    "extruder_temp": 220,
+    "extruder_temp_range": [
+      210,
+      230
+    ],
+    "bed_temp": 55,
+    "bed_temp_range": [
+      50,
+      60
+    ],
+    "finish": "glossy",
+    "multi_color_direction": "longitudinal",
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla_gradientrainbowcandy_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Gradient Rainbow Candy",
+    "material": "PLA",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": null,
+    "color_hexes": [
+      "E8A8C0",
+      "D8C479",
+      "7DB9B2"
+    ],
+    "extruder_temp": 220,
+    "extruder_temp_range": [
+      210,
+      230
+    ],
+    "bed_temp": 55,
+    "bed_temp_range": [
+      50,
+      60
+    ],
+    "finish": "glossy",
+    "multi_color_direction": "longitudinal",
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla_gradientrainbowmacarons_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Gradient Rainbow Macarons",
+    "material": "PLA",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": null,
+    "color_hexes": [
+      "DC9E8C",
+      "C7B983",
+      "B8BD7C"
+    ],
+    "extruder_temp": 220,
+    "extruder_temp_range": [
+      210,
+      230
+    ],
+    "bed_temp": 55,
+    "bed_temp_range": [
+      50,
+      60
+    ],
+    "finish": "glossy",
+    "multi_color_direction": "longitudinal",
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla_gradientsilkrainbow_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Gradient Silk Rainbow",
+    "material": "PLA",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": null,
+    "color_hexes": [
+      "E04848",
+      "F0A030",
+      "E8D040",
+      "48A858",
+      "4870D0",
+      "8850B8"
+    ],
+    "extruder_temp": 220,
+    "extruder_temp_range": [
+      210,
+      230
+    ],
+    "bed_temp": 55,
+    "bed_temp_range": [
+      50,
+      60
+    ],
+    "finish": "glossy",
+    "multi_color_direction": "longitudinal",
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla_ivory_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Ivory",
+    "material": "PLA",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "D4C391",
+    "color_hexes": null,
+    "extruder_temp": 210,
+    "extruder_temp_range": [
+      200,
+      220
+    ],
+    "bed_temp": 55,
+    "bed_temp_range": [
+      50,
+      60
+    ],
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla_lightblue_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Light Blue",
+    "material": "PLA",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "8FC3E6",
+    "color_hexes": null,
+    "extruder_temp": 210,
+    "extruder_temp_range": [
+      200,
+      220
+    ],
+    "bed_temp": 55,
+    "bed_temp_range": [
+      50,
+      60
+    ],
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla_marble_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Marble",
+    "material": "PLA",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "B2A9AB",
+    "color_hexes": null,
+    "extruder_temp": 210,
+    "extruder_temp_range": [
+      200,
+      220
+    ],
+    "bed_temp": 55,
+    "bed_temp_range": [
+      50,
+      60
+    ],
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": "marble",
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla_matteblack_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Matte Black",
+    "material": "PLA",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "1A1919",
+    "color_hexes": null,
+    "extruder_temp": 210,
+    "extruder_temp_range": [
+      200,
+      220
+    ],
+    "bed_temp": 55,
+    "bed_temp_range": [
+      50,
+      60
+    ],
+    "finish": "matte",
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla_matteblue_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Matte Blue",
+    "material": "PLA",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "0667BE",
+    "color_hexes": null,
+    "extruder_temp": 210,
+    "extruder_temp_range": [
+      200,
+      220
+    ],
+    "bed_temp": 55,
+    "bed_temp_range": [
+      50,
+      60
+    ],
+    "finish": "matte",
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla_mattegreen_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Matte Green",
+    "material": "PLA",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "4DA909",
+    "color_hexes": null,
+    "extruder_temp": 210,
+    "extruder_temp_range": [
+      200,
+      220
+    ],
+    "bed_temp": 55,
+    "bed_temp_range": [
+      50,
+      60
+    ],
+    "finish": "matte",
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla_mattegrey_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Matte Grey",
+    "material": "PLA",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "7B7D7D",
+    "color_hexes": null,
+    "extruder_temp": 210,
+    "extruder_temp_range": [
+      200,
+      220
+    ],
+    "bed_temp": 55,
+    "bed_temp_range": [
+      50,
+      60
+    ],
+    "finish": "matte",
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla_mattered_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Matte Red",
+    "material": "PLA",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "B81A16",
+    "color_hexes": null,
+    "extruder_temp": 210,
+    "extruder_temp_range": [
+      200,
+      220
+    ],
+    "bed_temp": 55,
+    "bed_temp_range": [
+      50,
+      60
+    ],
+    "finish": "matte",
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla_mattewhite_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Matte White",
+    "material": "PLA",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "C4C3C1",
+    "color_hexes": null,
+    "extruder_temp": 210,
+    "extruder_temp_range": [
+      200,
+      220
+    ],
+    "bed_temp": 55,
+    "bed_temp_range": [
+      50,
+      60
+    ],
+    "finish": "matte",
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla_military_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Military",
+    "material": "PLA",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "635512",
+    "color_hexes": null,
+    "extruder_temp": 210,
+    "extruder_temp_range": [
+      200,
+      220
+    ],
+    "bed_temp": 55,
+    "bed_temp_range": [
+      50,
+      60
+    ],
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla_orange_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Orange",
+    "material": "PLA",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "E36C06",
+    "color_hexes": null,
+    "extruder_temp": 210,
+    "extruder_temp_range": [
+      200,
+      220
+    ],
+    "bed_temp": 55,
+    "bed_temp_range": [
+      50,
+      60
+    ],
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla_purple_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Purple",
+    "material": "PLA",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "7B3FA1",
+    "color_hexes": null,
+    "extruder_temp": 210,
+    "extruder_temp_range": [
+      200,
+      220
+    ],
+    "bed_temp": 55,
+    "bed_temp_range": [
+      50,
+      60
+    ],
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla_silkblue-green_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Silk Blue-Green",
+    "material": "PLA",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": null,
+    "color_hexes": [
+      "1C6FC0",
+      "1CA080"
+    ],
+    "extruder_temp": 220,
+    "extruder_temp_range": [
+      210,
+      230
+    ],
+    "bed_temp": 55,
+    "bed_temp_range": [
+      50,
+      60
+    ],
+    "finish": "glossy",
+    "multi_color_direction": "coaxial",
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla_silkgold-silver-copper_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Silk Gold-Silver-Copper",
+    "material": "PLA",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": null,
+    "color_hexes": [
+      "D4A845",
+      "BFC1C4",
+      "C8784A"
+    ],
+    "extruder_temp": 220,
+    "extruder_temp_range": [
+      210,
+      230
+    ],
+    "bed_temp": 55,
+    "bed_temp_range": [
+      50,
+      60
+    ],
+    "finish": "glossy",
+    "multi_color_direction": "coaxial",
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla_silkpink-gold_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Silk Pink-Gold",
+    "material": "PLA",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": null,
+    "color_hexes": [
+      "F07890",
+      "D7AB4F"
+    ],
+    "extruder_temp": 220,
+    "extruder_temp_range": [
+      210,
+      230
+    ],
+    "bed_temp": 55,
+    "bed_temp_range": [
+      50,
+      60
+    ],
+    "finish": "glossy",
+    "multi_color_direction": "coaxial",
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla_silkpurple-gold_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Silk Purple-Gold",
+    "material": "PLA",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": null,
+    "color_hexes": [
+      "7A3FA1",
+      "D7AB4F"
+    ],
+    "extruder_temp": 220,
+    "extruder_temp_range": [
+      210,
+      230
+    ],
+    "bed_temp": 55,
+    "bed_temp_range": [
+      50,
+      60
+    ],
+    "finish": "glossy",
+    "multi_color_direction": "coaxial",
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla_silkred-blue_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Silk Red-Blue",
+    "material": "PLA",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": null,
+    "color_hexes": [
+      "C8202A",
+      "2F4FC0"
+    ],
+    "extruder_temp": 220,
+    "extruder_temp_range": [
+      210,
+      230
+    ],
+    "bed_temp": 55,
+    "bed_temp_range": [
+      50,
+      60
+    ],
+    "finish": "glossy",
+    "multi_color_direction": "coaxial",
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla_silkred-gold_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Silk Red-Gold",
+    "material": "PLA",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": null,
+    "color_hexes": [
+      "D8403A",
+      "D7AB4F"
+    ],
+    "extruder_temp": 220,
+    "extruder_temp_range": [
+      210,
+      230
+    ],
+    "bed_temp": 55,
+    "bed_temp_range": [
+      50,
+      60
+    ],
+    "finish": "glossy",
+    "multi_color_direction": "coaxial",
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla_silkred-green-blue_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Silk Red-Green-Blue",
+    "material": "PLA",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": null,
+    "color_hexes": [
+      "C8202A",
+      "20A050",
+      "0564CB"
+    ],
+    "extruder_temp": 220,
+    "extruder_temp_range": [
+      210,
+      230
+    ],
+    "bed_temp": 55,
+    "bed_temp_range": [
+      50,
+      60
+    ],
+    "finish": "glossy",
+    "multi_color_direction": "coaxial",
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla_silkred-yellow-blue_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Silk Red-Yellow-Blue",
+    "material": "PLA",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": null,
+    "color_hexes": [
+      "C8202A",
+      "E8C020",
+      "2050C0"
+    ],
+    "extruder_temp": 220,
+    "extruder_temp_range": [
+      210,
+      230
+    ],
+    "bed_temp": 55,
+    "bed_temp_range": [
+      50,
+      60
+    ],
+    "finish": "glossy",
+    "multi_color_direction": "coaxial",
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla_silver_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Silver",
+    "material": "PLA",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "B9BBBE",
+    "color_hexes": null,
+    "extruder_temp": 210,
+    "extruder_temp_range": [
+      200,
+      220
+    ],
+    "bed_temp": 55,
+    "bed_temp_range": [
+      50,
+      60
+    ],
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla_skin_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Skin",
+    "material": "PLA",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "E4B995",
+    "color_hexes": null,
+    "extruder_temp": 210,
+    "extruder_temp_range": [
+      200,
+      220
+    ],
+    "bed_temp": 55,
+    "bed_temp_range": [
+      50,
+      60
+    ],
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla_yellow_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Yellow",
+    "material": "PLA",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "DDE103",
+    "color_hexes": null,
+    "extruder_temp": 210,
+    "extruder_temp_range": [
+      200,
+      220
+    ],
+    "bed_temp": 55,
+    "bed_temp_range": [
+      50,
+      60
+    ],
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla+_schoolcolorsarizonagold_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "School Colors Arizona Gold",
+    "material": "PLA+",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "FFC72C",
+    "color_hexes": null,
+    "extruder_temp": 210,
+    "extruder_temp_range": null,
+    "bed_temp": 60,
+    "bed_temp_range": null,
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla+_schoolcolorsarizonamaroon_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "School Colors Arizona Maroon",
+    "material": "PLA+",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "861F41",
+    "color_hexes": null,
+    "extruder_temp": 210,
+    "extruder_temp_range": null,
+    "bed_temp": 60,
+    "bed_temp_range": null,
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla+_schoolcolorscaliblue_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "School Colors Cali Blue",
+    "material": "PLA+",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "041E42",
+    "color_hexes": null,
+    "extruder_temp": 210,
+    "extruder_temp_range": null,
+    "bed_temp": 60,
+    "bed_temp_range": null,
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla+_schoolcolorscaligold_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "School Colors Cali Gold",
+    "material": "PLA+",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "FFB81C",
+    "color_hexes": null,
+    "extruder_temp": 210,
+    "extruder_temp_range": null,
+    "bed_temp": 60,
+    "bed_temp_range": null,
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla+_schoolcolorscaliorange_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "School Colors Cali Orange",
+    "material": "PLA+",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "FF6A13",
+    "color_hexes": null,
+    "extruder_temp": 210,
+    "extruder_temp_range": null,
+    "bed_temp": 60,
+    "bed_temp_range": null,
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla+_schoolcolorsfloridagold_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "School Colors Florida Gold",
+    "material": "PLA+",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "F1C400",
+    "color_hexes": null,
+    "extruder_temp": 210,
+    "extruder_temp_range": null,
+    "bed_temp": 60,
+    "bed_temp_range": null,
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla+_schoolcolorsmichiganblue_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "School Colors Michigan Blue",
+    "material": "PLA+",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "041E42",
+    "color_hexes": null,
+    "extruder_temp": 210,
+    "extruder_temp_range": null,
+    "bed_temp": 60,
+    "bed_temp_range": null,
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla+_schoolcolorsmichigangold_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "School Colors Michigan Gold",
+    "material": "PLA+",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "F1C400",
+    "color_hexes": null,
+    "extruder_temp": 210,
+    "extruder_temp_range": null,
+    "bed_temp": 60,
+    "bed_temp_range": null,
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla+_schoolcolorsohiogray_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "School Colors Ohio Gray",
+    "material": "PLA+",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "A2AAAD",
+    "color_hexes": null,
+    "extruder_temp": 210,
+    "extruder_temp_range": null,
+    "bed_temp": 60,
+    "bed_temp_range": null,
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla+_schoolcolorsohiored_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "School Colors Ohio Red",
+    "material": "PLA+",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "BA0C2F",
+    "color_hexes": null,
+    "extruder_temp": 210,
+    "extruder_temp_range": null,
+    "bed_temp": 60,
+    "bed_temp_range": null,
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla+_schoolcolorspadarkblue_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "School Colors PA Dark Blue",
+    "material": "PLA+",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "003087",
+    "color_hexes": null,
+    "extruder_temp": 210,
+    "extruder_temp_range": null,
+    "bed_temp": 60,
+    "bed_temp_range": null,
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla+_schoolcolorspalightblue_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "School Colors PA Light Blue",
+    "material": "PLA+",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "6CACE4",
+    "color_hexes": null,
+    "extruder_temp": 210,
+    "extruder_temp_range": null,
+    "bed_temp": 60,
+    "bed_temp_range": null,
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla+_schoolcolorstexasmaroon_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "School Colors Texas Maroon",
+    "material": "PLA+",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "651D32",
+    "color_hexes": null,
+    "extruder_temp": 210,
+    "extruder_temp_range": null,
+    "bed_temp": 60,
+    "bed_temp_range": null,
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla+_schoolcolorstexasorange_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "School Colors Texas Orange",
+    "material": "PLA+",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "CB6015",
+    "color_hexes": null,
+    "extruder_temp": 210,
+    "extruder_temp_range": null,
+    "bed_temp": 60,
+    "bed_temp_range": null,
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla+_schoolcolorsurbanablue_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "School Colors Urbana Blue",
+    "material": "PLA+",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "13294B",
+    "color_hexes": null,
+    "extruder_temp": 210,
+    "extruder_temp_range": null,
+    "bed_temp": 60,
+    "bed_temp_range": null,
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_pla+_schoolcolorsurbanaorange_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "School Colors Urbana Orange",
+    "material": "PLA+",
+    "density": 1.24,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "FC4C02",
+    "color_hexes": null,
+    "extruder_temp": 210,
+    "extruder_temp_range": null,
+    "bed_temp": 60,
+    "bed_temp_range": null,
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_tpu-95a_black_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Black",
+    "material": "TPU-95A",
+    "density": 1.21,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "1A1A1A",
+    "color_hexes": null,
+    "extruder_temp": 230,
+    "extruder_temp_range": [
+      220,
+      240
+    ],
+    "bed_temp": 50,
+    "bed_temp_range": [
+      40,
+      60
+    ],
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_tpu-95a_blue_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Blue",
+    "material": "TPU-95A",
+    "density": 1.21,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "2646BE",
+    "color_hexes": null,
+    "extruder_temp": 230,
+    "extruder_temp_range": [
+      220,
+      240
+    ],
+    "bed_temp": 50,
+    "bed_temp_range": [
+      40,
+      60
+    ],
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_tpu-95a_clear_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Clear",
+    "material": "TPU-95A",
+    "density": 1.21,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "CCCABF80",
+    "color_hexes": null,
+    "extruder_temp": 230,
+    "extruder_temp_range": [
+      220,
+      240
+    ],
+    "bed_temp": 50,
+    "bed_temp_range": [
+      40,
+      60
+    ],
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": true,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_tpu-95a_darkgreen_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Dark Green",
+    "material": "TPU-95A",
+    "density": 1.21,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "369917",
+    "color_hexes": null,
+    "extruder_temp": 230,
+    "extruder_temp_range": [
+      220,
+      240
+    ],
+    "bed_temp": 50,
+    "bed_temp_range": [
+      40,
+      60
+    ],
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_tpu-95a_makegoodpurple_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Make Good Purple",
+    "material": "TPU-95A",
+    "density": 1.21,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "8D2980",
+    "color_hexes": null,
+    "extruder_temp": 230,
+    "extruder_temp_range": [
+      220,
+      240
+    ],
+    "bed_temp": 50,
+    "bed_temp_range": [
+      40,
+      60
+    ],
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_tpu-95a_orange_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Orange",
+    "material": "TPU-95A",
+    "density": 1.21,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "E34B07",
+    "color_hexes": null,
+    "extruder_temp": 230,
+    "extruder_temp_range": [
+      220,
+      240
+    ],
+    "bed_temp": 50,
+    "bed_temp_range": [
+      40,
+      60
+    ],
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_tpu-95a_pastelblue_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Pastel Blue",
+    "material": "TPU-95A",
+    "density": 1.21,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "84BDDC",
+    "color_hexes": null,
+    "extruder_temp": 230,
+    "extruder_temp_range": [
+      220,
+      240
+    ],
+    "bed_temp": 50,
+    "bed_temp_range": [
+      40,
+      60
+    ],
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_tpu-95a_pastelgreen_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Pastel Green",
+    "material": "TPU-95A",
+    "density": 1.21,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "95C042",
+    "color_hexes": null,
+    "extruder_temp": 230,
+    "extruder_temp_range": [
+      220,
+      240
+    ],
+    "bed_temp": 50,
+    "bed_temp_range": [
+      40,
+      60
+    ],
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_tpu-95a_pastelyellow_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "Pastel Yellow",
+    "material": "TPU-95A",
+    "density": 1.21,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "D4B64E",
+    "color_hexes": null,
+    "extruder_temp": 230,
+    "extruder_temp_range": [
+      220,
+      240
+    ],
+    "bed_temp": 50,
+    "bed_temp_range": [
+      40,
+      60
+    ],
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
+    "id": "schoolhousespools_tpu-95a_white_1000_175_p",
+    "manufacturer": "School House Spools",
+    "name": "White",
+    "material": "TPU-95A",
+    "density": 1.21,
+    "weight": 1000,
+    "spool_weight": 178,
+    "spool_type": "plastic",
+    "diameter": 1.75,
+    "color_hex": "DCD7CC",
+    "color_hexes": null,
+    "extruder_temp": 230,
+    "extruder_temp_range": [
+      220,
+      240
+    ],
+    "bed_temp": 50,
+    "bed_temp_range": [
+      40,
+      60
+    ],
+    "finish": null,
+    "multi_color_direction": null,
+    "pattern": null,
+    "translucent": false,
+    "glow": false
+  },
+  {
     "id": "siddament_abs_arctictealabs_1000_175_p",
     "manufacturer": "Siddament",
     "name": "Arctic Teal ABS",
