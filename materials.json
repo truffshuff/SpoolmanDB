@@ -389,5 +389,17 @@
     {
         "material": "TIMEFILM",
         "density": 1.14
+    },
+    {
+        "material": "TIMEMASSACTIVE",
+        "density": 1.241
+    },
+    {
+        "material": "TIMEMASSEXTENDED",
+        "density": 1.254
+    },
+    {
+        "material": "TIMEMASSPASSIVE",
+        "density": 1.265
     }
 ]
