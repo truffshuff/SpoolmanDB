@@ -411,49 +411,6 @@
       ]
     },
     {
-      "name": "Reflect Glow {color_name}",
-      "material": "TIMEMASSPASSIVE",
-      "density": 1.265,
-      "weights": [
-        {
-          "weight": 350.0,
-          "spool_weight": 150,
-          "spool_type": "cardboard"
-        }
-      ],
-      "diameters": [
-        1.75
-      ],
-      "pattern": "sparkle",
-      "colors": [
-        {
-          "name": "Reflective",
-          "hex": "F5F5F5"
-        }
-      ]
-    },
-    {
-      "name": "Timefilm {color_name}",
-      "material": "TIMEMASSEXTENDED",
-      "density": 1.254,
-      "weights": [
-        {
-          "weight": 350.0,
-          "spool_weight": 150,
-          "spool_type": "cardboard"
-        }
-      ],
-      "diameters": [
-        1.75
-      ],
-      "colors": [
-        {
-          "name": "Clear",
-          "hex": "E8F4F8"
-        }
-      ]
-    },
-    {
       "name": "Metal Surface Gen 2 {color_name}",
       "material": "TIMEMASSEXTENDED",
       "density": 1.254,
@@ -513,27 +470,6 @@
         {
           "name": "Brown",
           "hex": "8B5A2B"
-        }
-      ]
-    },
-    {
-      "name": "Photovoltaic {color_name}",
-      "material": "TIMEMASSACTIVE",
-      "density": 1.241,
-      "weights": [
-        {
-          "weight": 350.0,
-          "spool_weight": 150,
-          "spool_type": "cardboard"
-        }
-      ],
-      "diameters": [
-        1.75
-      ],
-      "colors": [
-        {
-          "name": "Blue",
-          "hex": "4F7CFF"
         }
       ]
     },
@@ -1466,6 +1402,216 @@
         {
           "name": "Clear",
           "hex": "E8F4F8"
+        }
+      ]
+    },
+    {
+      "name": "Fungi Food {color_name}",
+      "material": "TIMEMASSEXTENDED",
+      "density": 1.254,
+      "weights": [
+        {
+          "weight": 350.0,
+          "spool_weight": 150,
+          "spool_type": "cardboard"
+        }
+      ],
+      "diameters": [
+        1.75
+      ],
+      "colors": [
+        {
+          "name": "Amber",
+          "hex": "D29A1E"
+        }
+      ]
+    },
+    {
+      "name": "Urn {color_name}",
+      "material": "TIMEMASSACTIVE",
+      "density": 1.241,
+      "weights": [
+        {
+          "weight": 350.0,
+          "spool_weight": 150,
+          "spool_type": "cardboard"
+        }
+      ],
+      "diameters": [
+        1.75
+      ],
+      "colors": [
+        {
+          "name": "Natural",
+          "hex": "C9B3A6"
+        }
+      ]
+    },
+    {
+      "name": "Duck Tape {color_name}",
+      "material": "TIMEMASSEXTENDED",
+      "density": 1.254,
+      "weights": [
+        {
+          "weight": 350.0,
+          "spool_weight": 150,
+          "spool_type": "cardboard"
+        }
+      ],
+      "diameters": [
+        1.75
+      ],
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "1A1A1A"
+        }
+      ]
+    },
+    {
+      "name": "Seal & Repair {color_name}",
+      "material": "TIMEMASSEXTENDED",
+      "density": 1.254,
+      "weights": [
+        {
+          "weight": 350.0,
+          "spool_weight": 150,
+          "spool_type": "cardboard"
+        }
+      ],
+      "diameters": [
+        1.75
+      ],
+      "colors": [
+        {
+          "name": "Orange",
+          "hex": "D2690C"
+        }
+      ]
+    },
+    {
+      "name": "Desiccant {color_name}",
+      "material": "TIMEMASSEXTENDED",
+      "density": 1.254,
+      "weights": [
+        {
+          "weight": 350.0,
+          "spool_weight": 150,
+          "spool_type": "cardboard"
+        }
+      ],
+      "diameters": [
+        1.75
+      ],
+      "colors": [
+        {
+          "name": "Natural",
+          "hex": "C9A26B"
+        }
+      ]
+    },
+    {
+      "name": "K-9 Focus {color_name}",
+      "material": "TIMEMASSEXTENDED",
+      "density": 1.254,
+      "weights": [
+        {
+          "weight": 350.0,
+          "spool_weight": 150,
+          "spool_type": "cardboard"
+        }
+      ],
+      "diameters": [
+        1.75
+      ],
+      "colors": [
+        {
+          "name": "Natural",
+          "hex": "C9A26B"
+        }
+      ]
+    },
+    {
+      "name": "Water Retainer {color_name}",
+      "material": "TIMEMASSEXTENDED",
+      "density": 1.254,
+      "weights": [
+        {
+          "weight": 350.0,
+          "spool_weight": 150,
+          "spool_type": "cardboard"
+        }
+      ],
+      "diameters": [
+        1.75
+      ],
+      "colors": [
+        {
+          "name": "Natural",
+          "hex": "C9A26B"
+        }
+      ]
+    },
+    {
+      "name": "Water Purifier {color_name}",
+      "material": "TIMEMASSPASSIVE",
+      "density": 1.265,
+      "weights": [
+        {
+          "weight": 350.0,
+          "spool_weight": 150,
+          "spool_type": "cardboard"
+        }
+      ],
+      "diameters": [
+        1.75
+      ],
+      "colors": [
+        {
+          "name": "Natural",
+          "hex": "C9A26B"
+        }
+      ]
+    },
+    {
+      "name": "Water Desalination {color_name}",
+      "material": "TIMEMASSPASSIVE",
+      "density": 1.265,
+      "weights": [
+        {
+          "weight": 350.0,
+          "spool_weight": 150,
+          "spool_type": "cardboard"
+        }
+      ],
+      "diameters": [
+        1.75
+      ],
+      "colors": [
+        {
+          "name": "Natural",
+          "hex": "C9A26B"
+        }
+      ]
+    },
+    {
+      "name": "Air Water Well {color_name}",
+      "material": "TIMEMASSPASSIVE",
+      "density": 1.265,
+      "weights": [
+        {
+          "weight": 350.0,
+          "spool_weight": 150,
+          "spool_type": "cardboard"
+        }
+      ],
+      "diameters": [
+        1.75
+      ],
+      "colors": [
+        {
+          "name": "Natural",
+          "hex": "C9A26B"
         }
       ]
     }
