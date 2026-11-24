@@ -1,13 +1,7 @@
 """This script takes in the directory of filament json files, expands them and writes them to a single output json."""
 
+from enum import StrEnum
 import json
-from enum import Enum
-
-try:
-    from enum import StrEnum
-except ImportError:
-    class StrEnum(str, Enum):
-        pass
 from pathlib import Path
 from typing import Iterator
 from typing import TypedDict, NotRequired
@@ -44,6 +38,7 @@ class Color(TypedDict):
     name: str
     hex: NotRequired[str]
     hexes: NotRequired[list[str]]
+    transmission_distance: NotRequired[float]
     finish: NotRequired[Finish | None]
     multi_color_direction: NotRequired[MultiColorDirection | None]
     pattern: NotRequired[Pattern | None]
@@ -67,6 +62,7 @@ class Filament(TypedDict):
     pattern: NotRequired[Pattern | None]
     translucent: NotRequired[bool]
     glow: NotRequired[bool]
+    country_of_origin: NotRequired[str]
 
 
 SPOOL_TYPE_MAP = {
@@ -114,6 +110,7 @@ def expand_filament_data(manufacturer: str, data: Filament) -> Iterator[dict]:
     pattern = data.get("pattern", None)
     translucent = data.get("translucent", False)
     glow = data.get("glow", False)
+    country_of_origin = data.get("country_of_origin", None)
 
     for weight_obj in weights:
         weight = weight_obj["weight"]
@@ -189,6 +186,7 @@ def expand_filament_data(manufacturer: str, data: Filament) -> Iterator[dict]:
                     "diameter": diameter,
                     "color_hex": color_hex,
                     "color_hexes": color_hexes,
+                    "transmission_distance": color_obj.get("transmission_distance", None),
                     "extruder_temp": extruder_temp,
                     "extruder_temp_range": extruder_temp_range,
                     "bed_temp": bed_temp,
@@ -198,6 +196,7 @@ def expand_filament_data(manufacturer: str, data: Filament) -> Iterator[dict]:
                     "pattern": color_pattern,
                     "translucent": color_translucent,
                     "glow": color_glow,
+                    "country_of_origin": country_of_origin,
                 }
 
 

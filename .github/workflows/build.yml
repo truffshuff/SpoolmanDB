@@ -10,7 +10,7 @@ on:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
@@ -18,13 +18,17 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+      - name: Check filament formatting
+        run: python3 scripts/format_filaments.py --check
+      - name: Test filament formatter
+        run: python3 scripts/test_format_filaments.py
       - name: Install pipx
         run: |
           python3 -m pip install --user pipx
@@ -36,8 +40,12 @@ jobs:
         run: check-jsonschema --schemafile materials.schema.json materials.json
       - name: Validate Filaments
         run: check-jsonschema --schemafile filaments.schema.json filaments/*
+      - name: Test filament compilation
+        run: python3 scripts/test_compile_filaments.py
       - name: Test the catalog preview script
         run: python3 scripts/test_preview_catalog.py
+      - name: Test filament name validation
+        run: python3 scripts/test_filament_names.py
       - name: Check for generated and editor files
         if: github.event_name == 'pull_request'
         run: |
@@ -66,26 +74,18 @@ jobs:
     runs-on: ubuntu-latest
     needs: [validate]
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v4
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
       - name: Compile filaments
         run: python3 scripts/compile_filaments.py
-      - name: Commit updated artifacts
-        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -f filaments.json
-          git add materials.json
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "chore: regenerate compiled filament database [skip ci]"
-            git push
-          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: filaments
+          path: filaments.json
+          if-no-files-found: error
 
   # Single deploy job since we're just deploying
   deploy:
@@ -100,23 +100,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
-      - name: Set up Python
-        uses: actions/setup-python@v6
-        with:
-          python-version: "3.11"
-      - name: Compile filaments
-        run: python3 scripts/compile_filaments.py
+        uses: actions/checkout@v4
       - name: Setup Pages
-        uses: actions/configure-pages@v6
-      - name: Copy generated data
+        uses: actions/configure-pages@v5
+      - name: Restore artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: filaments
+          path: public
+      - name: Copy remaining data
         run: |
-          cp filaments.json public/
           cp materials.json public/
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v3
         with:
           path: public/
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v5
+        uses: actions/deploy-pages@v4

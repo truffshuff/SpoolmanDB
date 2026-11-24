@@ -131,7 +131,7 @@
     },
     {
         "material": "Flexible (TPE 32D)",
-        "density": 1.10
+        "density": 1.1
     },
     {
         "material": "Flexible (TPE 88A)",
@@ -139,7 +139,7 @@
     },
     {
         "material": "PVB",
-        "density": 1.10
+        "density": 1.1
     },
     {
         "material": "PA12-CF",

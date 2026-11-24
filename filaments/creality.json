@@ -158,7 +158,7 @@
             ]
         },
         {
-            "name": "{color_name} Hyper ABS",
+            "name": "{color_name} Hyper",
             "material": "ABS",
             "density": 1.04,
             "weights": [
@@ -250,7 +250,7 @@
             ]
         },
         {
-            "name": "Ender-PLA {color_name}",
+            "name": "Ender {color_name}",
             "material": "PLA",
             "density": 1.25,
             "weights": [
@@ -284,7 +284,7 @@
             ]
         },
         {
-            "name": "CR-PETG {color_name}",
+            "name": "CR {color_name}",
             "material": "PETG",
             "density": 1.25,
             "weights": [
@@ -322,6 +322,10 @@
                     "hex": "0000FF"
                 },
                 {
+                    "name": "Grey",
+                    "hex": "AAA9A8"
+                },
+                {
                     "name": "Transparent Blue",
                     "hex": "06038D",
                     "translucent": true
@@ -343,12 +347,7 @@
                 {
                     "name": "Purple",
                     "hex": "B705DC"
-                },
-                {
-                    "name": "Grey",
-                    "hex": "AAA9A8"
                 }
-
             ]
         }
     ]
